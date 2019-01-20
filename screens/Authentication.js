@@ -23,7 +23,7 @@ export default class AUTHENTICATION extends React.Component {
           androidClientId: "865415366088-6beq1kml9n1j99ghe7ep8ql9kd7lk6va.apps.googleusercontent.com",
         scopes: ["profile", "email"]
       })
-
+console.log(result);
       if (result.type === "success") {
         this.goToHome(result);
       } else {

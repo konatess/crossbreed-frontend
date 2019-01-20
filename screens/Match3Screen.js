@@ -6,7 +6,7 @@ import { NavigationActions, StackActions } from 'react-navigation';
 import GameBoard from '../components/Match3Game/GameBoard';
 import RaceDisplay from "../components/Match3Game/RaceDisplay";
 import MyModal from "../components/Modal";
-import API from "../utils/API";
+// import API from "../utils/API";
 
 const exampleImg = "https://facebook.github.io/react-native/docs/assets/favicon.png ";
 let modalMessage = "";

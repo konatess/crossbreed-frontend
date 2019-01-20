@@ -4,6 +4,10 @@
     "slug": "crossbreed",
     "privacy": "public",
     "sdkVersion": "32.0.0",
+    "androidStatusBar": {
+      "backgroundColor": "#C2185B",
+      "barStyle": "dark-content"
+    },
     "platforms": [
       "ios",
       "android"
@@ -23,7 +27,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kimmykablitz.crossbreed",
+      "publishBundlePath": "ios/crossbreed/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/crossbreed/Supporting/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.10.2-sdk32.0.0-c59c23cd-1d49-49d2-a633-d03f9d554cf6.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.5-sdk32.0.0-6b87ee30-8cbe-4cc6-b5ba-b03b77e34f90.tar.gz"
+    },
+    "scheme": "exped4f22d04fd6447ab0247e26ff8fc815",
+    "android": {
+      "package": "com.kimmykablitz.crossbreed",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
     }
   }
 }
