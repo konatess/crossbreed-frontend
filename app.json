@@ -8,6 +8,19 @@
       "ios",
       "android"
     ],
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyD943_VEGLmZuIELCTvLRSidv_jJVshY4M",
+        "authDomain": "beautiful-creatures.firebaseapp.com",
+        "databaseURL": "https://beautiful-creatures.firebaseio.com/",
+        "projectId": "beautiful-creatures",
+        "storageBucket": "xxxxxxxxxx.appspot.com",
+        "messagingSenderId": "xxxxxxxxxxxx"
+      },
+      "facebook": {
+        "appId": "1148477411975441"
+      }
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
